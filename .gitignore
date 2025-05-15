@@ -1,0 +1,22 @@
+﻿# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Conda / Python environment
+.env/
+.venv/
+*.egg-info/
+realesrgan.egg-info/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VSCode / Cursor editor settings
+.vscode/
+cursor.json
+.history/
+
+# Results
+results/
