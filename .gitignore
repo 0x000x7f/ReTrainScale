@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *.so
+*.log
 
 # Conda / Python environment
 .env/
@@ -9,14 +10,21 @@ __pycache__/
 *.egg-info/
 realesrgan.egg-info/
 
-# OS-specific
-.DS_Store
-Thumbs.db
-
 # VSCode / Cursor editor settings
 .vscode/
 cursor.json
 .history/
 
-# Results
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# 結果や出力ファイル
 results/
+output/
+
+# 入力画像（個人写真など）
+inputs/
+
+# モデルファイル
+*.pth
