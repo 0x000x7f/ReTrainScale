@@ -21,6 +21,6 @@ for input_path in image_paths:
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     # Real-ESRGANコマンドの実行
-    cmd = f'python inference_realesrgan.py -n {model_name} -i "{input_path}" -o "{output_path}"'
+    cmd = f'python realesrgan-core/inference_realesrgan.py -n {model_name} -i "{input_path}" -o "{output_path}"'
     print(f'[INFO] Processing: {rel_path}')
     os.system(cmd)
